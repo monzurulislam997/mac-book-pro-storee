@@ -15,7 +15,7 @@
  <main>
 
      <div class=" flex container">
-         <!-- -----mac picture area---- -->
+         <!-- -----mac picture---- -->
         <div class="mx-12 my-8">
             <img   src="images/mac.png" alt="">
         </div>
@@ -29,24 +29,24 @@
                 <!-- -----memory area--- -->
                 <div class="memory mb-5 mt-3">
                     <h5>Memory</h5>
-                    <button id="memory-8gb" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400 mr-5">
+                    <button onclick="idClick()" id="memory-8gb" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400 mr-5">
                      8GB unfied memory</button>
                     
-                    <button id="memory-16gb" class="border-2 p-1 bg-gray-300 hover:bg-gray-400 border border-gray-400 ">16GB unfied memory</button>
+                    <button onclick="idClick()" id="memory-16gb" class="border-2 p-1 bg-gray-300 hover:bg-gray-400 border border- ray-400 ">16GB unfied memory</button>
                 </div>
 
-                <!-- ---------storage area------------- -->
-                <div class="storage mb-5">
-                    <h5>storage</h5>
-                    <button id="ssd-256gb" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400 mr-5" >256GB ssd storage</button>
+                <!-- ------ --storage area------------- -->
+                <div class= storage mb-5>
+                    <h5>sto age</h5>
+                    <button onclick="idClick()" id="ssd-256gb" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400 mr-5" >256GB ssd storage</button>
                      <button id="ssd-512gb" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400 mr-5" >512GB ssd storage</button>
-                    <button id="ssd-1tb" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400 ">1TB ssd storage</button>
+                    <button onclick="idClick()" id="ssd-1tb" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400 ">1TB ssd storage</button>
                 </div>
 
                 <!-- -------delivery area------ -->
                 <div class="delivery mb-5">
                     <h5>choose your delivery option</h5>
-                    <button id="free-delivery" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400 mr-5 ">Friday, August 25 FREE delivery</button>
+                    <button onclick="idClick()" id="free-delivery" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400 mr-5 ">Friday, August 25 FREE delivery</button>
                     <button id="charge-delivery" class="bg-gray-300 p-1 hover:bg-gray-400 border border-gray-400">Friday, August 21 delivery charge $20</button>
 
                 </div>
@@ -61,7 +61,6 @@
                       </tr>
                       <tr class="p-16" >
                         <td colspan="2">Extra Memory Cost </td>
-                    
                         <td class="px-12" colspan="2">$<span id="extramemory-cost" class="">0</span></td>
                       </tr>
                       <tr class="my-6">
@@ -103,6 +102,6 @@
  </main>
 
  <!-- -----javascript----- -->
- <script src="script.js"></script>
+ <script src="mac.js"></script>
 </body>
 </html>
